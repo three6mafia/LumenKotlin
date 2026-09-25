@@ -1,0 +1,6 @@
+{
+  "name": "Lumen",
+  "description": "HDRezka Android and Android TV streaming client with ExoPlayer, remote D-pad navigation and film catalog",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

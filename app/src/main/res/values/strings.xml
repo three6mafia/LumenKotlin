@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lumen</string>
+    <string name="tab_home">Главная</string>
+    <string name="tab_search">Поиск</string>
+    <string name="tab_favorites">Закладки</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="search_hint">Поиск фильмов и сериалов…</string>
+    <string name="play">Смотреть</string>
+    <string name="trailer">Трейлер</string>
+    <string name="season_prefix">Сезон</string>
+    <string name="episode_prefix">Серия</string>
+    <string name="voice_acting">Озвучка</string>
+    <string name="quality">Качество</string>
+    <string name="retry">Повторить</string>
+    <string name="error_loading">Ошибка при загрузке данных</string>
+    <string name="empty_results">Ничего не найдено</string>
+</resources>

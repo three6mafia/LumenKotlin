@@ -1,11 +1,24 @@
-<div align="center">
+# Lumen — Android & Android TV Client
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Lumen is a modern native Android application written in **Kotlin** and **Jetpack Compose** with dedicated **Android TV** support.
 
-  <h1>Built with AI Studio</h2>
+## Architecture & Tech Stack
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Target Platforms**: Android (Mobile / Tablets) & Android TV (Leanback launcher)
+- **UI Framework**: Jetpack Compose, Material 3, TvLazyColumn, TvLazyRow
+- **Video Playback**: AndroidX Media3 ExoPlayer with custom D-pad remote controls
+- **Networking**: Retrofit 2, OkHttp 4, Coroutines, Flow, StateFlow
+- **HTML Parsing & Stream Decryption**: Jsoup + native Kotlin stream cipher decryption algorithm
+- **Image Loading**: Coil Compose
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Features
 
-</div>
+- ⭐️ **Full Android TV & D-pad Support**: Full navigation using TV remotes, focused scale animations and focus rings.
+- ⭐️ **TvLazyColumn & TvLazyRow Shelves**: Dynamic catalog shelves ("Горячие Новинки", "Новинки", "Сейчас смотрят", "Популярные", "Фильмы", "Сериалы", "Аниме", "В ожидании").
+- ⭐️ **Custom Media3 ExoPlayer**: Play/Pause, 10s Rewind/Forward, interactive progress slider, quality selector, and auto-hiding controls.
+- ⭐️ **Film & Series Details**: Voice acting selector, seasons and episodes, metadata, and related films.
+- ⭐️ **Instant Search & Bookmarks**: Fast search suggestions and offline favorites storage.
+
+## License
+
+[MIT](./LICENSE)
